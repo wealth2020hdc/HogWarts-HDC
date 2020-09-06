@@ -1,0 +1,5 @@
+env:
+  ip: '192.168.134.111'
+  port: 1234
+  username: 'admin'
+  password: 123456

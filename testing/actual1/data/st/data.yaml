@@ -1,0 +1,5 @@
+env:
+  ip: '10.3.154.1'
+  port: 5678
+  username: 'st'
+  password: 456789

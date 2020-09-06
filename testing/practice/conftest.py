@@ -12,7 +12,7 @@ def pytest_collection_modifyitems(
     print(items)
     print(len(items))
     # 倒叙执行测试用例
-    items.reverse()
+    # items.reverse()
     for item in items:
         item.name = item.name.encode('utf-8').decode('unicode-escape')
         item._nodeid = item.nodeid.encode('utf-8').decode('unicode-escape')
